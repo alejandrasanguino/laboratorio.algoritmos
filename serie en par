@@ -1,0 +1,21 @@
+/
+#include <iostream>
+#include <conio.h>
+#include <math.h>
+#include <stdlib.h>
+using namespace std;
+ void main()
+ {
+	 int N,s,cont;
+	 cout<<"increse n:";
+	 cin>>N;
+	 s=0;
+	 cont=2;
+	 while(cont<=N){
+		 s=s+cont;
+		 cont=cont+2;
+	 }
+ cout<<"la suma total es:" << s;
+ getch();
+	 }
+ 
